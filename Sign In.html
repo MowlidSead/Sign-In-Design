@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./tailwind.min.css">
+</head>
+<body>
+<div class="dark:bg-[#111827] flex h-screen flex-col justify-center items-center px-6 py-12 lg:px-8">
+    <div class="sm:mx-auto sm:w-full sm:max-w-sm grid place-items-center">
+      <img class="w-52 h-52 hidden" src="./Images/Code Raz.png" alt="Code_Raz">
+      <img class="w-52 h-52" src="./Images/Code Raz1.png" alt="">
+      <h2 class="dark:text-gray-50 text-gray-800 font-bold text-xl">Sign in to your account</h2>
+    </div>
+  
+    <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+      <form class="space-y-5" action="#" method="POST">
+        <div>
+          <label for="email" class="block text-sm font-medium leading-6 dark:text-gray-50">Email address</label>
+          <div class="mt-2">
+            <input id="email" name="email" type="email" autocomplete="email" required class="py-2 px-3 outline-none block w-full rounded-md border-0 bg-[#1D2432] text-gray-800 shadow-sm ring-1 ring-inset placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-sm sm:leading-6">
+          </div>
+        </div>
+  
+        <div>
+          <div class="flex items-center justify-between">
+            <label for="password" class="block text-sm font-medium leading-6 dark:text-gray-50">Password</label>
+            <div class="text-sm">
+              <a href="#" class="font-semibold text-red-500 hover:text-red-500">Forgot password?</a>
+            </div>
+          </div>
+          <div class="mt-2">
+            <input id="password" name="password" type="password" autocomplete="current-password" required class="px-3 outline-none block w-full rounded-md border-0 bg-[#1D2432] py-2 text-gray-800 shadow-sm ring-1 ring-inset placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-sm sm:leading-6">
+          </div>
+          <div class="mt-2 flex justify-start items-center space-x-2">
+              <input class="block w-4 h-4 my-2 checked:bg-red-500 outline-none rounded focus:ring-2 focus:ring-red-600 ring-offset-2 ring-offset-[#111827] bg-[#1D2432]" type="checkbox" name="checkbox" id="checkbox" style=":checked{accent-color: #ef4444;}">
+              <label class="block font-normal dark:text-white" for="checkbox">Show Password</label>
+          </div>
+        </div>
+  
+        <div>
+          <button type="submit" class="flex w-full justify-center rounded-md bg-red-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600">Sign in</button>
+        </div>
+      </form>
+  
+      <p class="mt-10 text-center text-sm text-slate-500">
+        Maker Source!
+        <a href="https://github.com/mowlidsead0" class="font-semibold leading-7 px-1 text-red-600 hover:text-red-500">@mowlidsead0</a>
+      </p>
+    </div>
+  </div>
+  
+</body>
+</html>
